@@ -1,19 +1,38 @@
 # Jenkins Scripted Pipeline Lab
 
-This is a simple Jenkins lab project using a Scripted Jenkins Pipeline.
+This repository contains a simple Jenkins Scripted Pipeline lab using a `Jenkinsfile`.
 
-## Pipeline Stages
+The goal of this lab is to understand how Jenkins can read a pipeline from GitHub and run different stages such as build and test.
 
-- Checkout
-- List Files
-- Build
-- Test
-- Deploy
+---
+
+## Project Overview
+
+In this lab, Jenkins will:
+
+1. Clone the GitHub repository
+2. Run a build stage
+3. Handle errors using `try / catch`
+4. Run a test stage based on the branch name
+5. Skip the test stage if the branch condition is not matched
+
+---
 
 ## Tools Used
 
 - Jenkins
 - GitHub
-- Jenkinsfile
-- Docker
+- Git
 - Ubuntu
+- Docker
+- Jenkinsfile
+- Scripted Pipeline
+
+---
+
+## Repository Structure
+
+```text
+.
+├── Jenkinsfile
+└── README.md
